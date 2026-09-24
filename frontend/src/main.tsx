@@ -1,6 +1,8 @@
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import {BrowserRouter} from 'react-router';
+import {Theme} from '@astryxdesign/core/theme';
+import {neutralTheme} from '@astryxdesign/theme-neutral/built';
 import '@astryxdesign/core/reset.css';
 import '@astryxdesign/theme-neutral/theme.css';
 import './index.css';
@@ -13,8 +15,11 @@ if (!root) {
 
 createRoot(root).render(
   <StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    {/* Theme scopes Astryx design tokens (fonts, colors) to the app. */}
+    <Theme theme={neutralTheme}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Theme>
   </StrictMode>,
 );

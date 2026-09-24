@@ -21,7 +21,6 @@ export function AppLayout() {
   return (
     <LinkProvider component={RouterLink}>
       <AppShell
-        height="auto"
         contentPadding={4}
         topNav={<TopNav heading={<TopNavHeading heading="My Cars Lib" headingHref="/" />} />}>
         <div {...stylex.props(styles.page)}>

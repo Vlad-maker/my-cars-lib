@@ -9,3 +9,4 @@
 - [2026-09-24] SDD: Фаза 6 (tasks) завершена: tasks.md
 - [2026-09-24] SDD: Фаза 8 (implement) — фазы B–D: миграции, Go API, React UI; `scripts/check.sh` зелёный на macOS (go test, tsc, vitest, vite build)
 - [2026-09-24] SDD: Фаза 7 (audit) — audit-report.md: PASS, ожидается ручная E2E-проверка T041
+- [2026-09-24] SDD: T041 E2E пройден; исправлены Theme-обёртка и высота AppShell. Спека 001 закрыта.

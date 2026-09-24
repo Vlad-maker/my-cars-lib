@@ -1,6 +1,6 @@
 ---
 project: my-cars-lib
-current_phase: 7-audit
+current_phase: done (001)
 updated: 2026-09-24
 ---
 
@@ -8,7 +8,7 @@ updated: 2026-09-24
 
 | # | Фича | Спека | Статус |
 |---|---|---|---|
-| 001 | Библиотека автомобилей (MVP) | [specs/001-cars-library/spec.md](../specs/001-cars-library/spec.md) | в работе |
+| 001 | Библиотека автомобилей (MVP) | [specs/001-cars-library/spec.md](../specs/001-cars-library/spec.md) | ✅ MVP готов |
 
 ## Бэклог (кандидаты в следующие спеки)
 - 002: Деплой на хостинг (Docker, PostgreSQL?)
