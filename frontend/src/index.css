@@ -1,0 +1,4 @@
+/* Placeholder so Vite emits a CSS asset for StyleX aggregation (see Astryx example-vite). */
+:root {
+  --stylex-injection: 0;
+}
